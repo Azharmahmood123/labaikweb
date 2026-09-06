@@ -13,7 +13,9 @@ try {
             arabic_title AS arabicTitle,
             arabic_author AS arabicAuthor,
             english_title AS englishTitle,
-            english_author AS englishAuthor
+            english_author AS englishAuthor,
+            short_description AS shortDescription,
+            long_description AS longDescription
         FROM hadith_books
         ORDER BY id ASC
     ");
